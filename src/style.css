@@ -1,0 +1,81 @@
+/* Navbar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .brand {
+    font-weight: bold;
+  }
+  
+  .get-users-btn {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .get-users-btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* User Grid Styles */
+  .user-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem;
+  }
+  
+  /* User Card Styles */
+  .user-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .user-card .user-info {
+    padding: 1rem;
+  }
+  
+  .user-card .user-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .user-card .user-info p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Loader Styles */
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2rem;
+  }
+  
